@@ -1,3 +1,5 @@
+
+const Review = require('../models/reviews.model');
 const catchAsync = require('../utils/catchAsync');
 
 exports.validaExistReview = catchAsync(async (req, res, next) =>{
